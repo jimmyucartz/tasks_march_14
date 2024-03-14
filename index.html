@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>
+      March 14 | Duplicates in an array | Min and Maximum in an array
+    </title>
+  </head>
+  <body>
+    <div class="row">
+      <section class="col">
+        <h4>Duplicates in an array</h4>
+        <label
+          >Enter Numbers seperated by commas to find duplicate entries <br />
+          <input
+            name="dupl_in"
+            id="input_numbers1"
+            type="text"
+            placeholder="Enter Numbers seperated by commas "
+            required
+          /> </label
+        ><br />
+        <button type="submit" onclick="findDUplicates()">
+          Find Duplicates
+        </button>
+        <button type="reset" onclick="resetInput('input_numbers1','result1')">
+          Reset Input
+        </button>
+        <p id="result1"></p>
+      </section>
+
+      <!-- <hr /> -->
+      <section class="col">
+        <h4>Minimum and Maximum in an array</h4>
+        <label
+          >Enter Numbers seperated by commas to find minimum and maximum from
+          them
+          <br />
+          <input
+            name="min_max_in"
+            id="input_numbers2"
+            type="text"
+            placeholder="Enter Numbers seperated by commas "
+            required
+          /> </label
+        ><br />
+        <button type="submit" onclick="findMinMax()">Find</button>
+        <button type="reset" onclick="resetInput('input_numbers2','result2')">
+          Reset Input
+        </button>
+        <p id="result2"></p>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
